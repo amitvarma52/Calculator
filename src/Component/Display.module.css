@@ -1,0 +1,22 @@
+.display{
+  width: 60%;
+  font-size: 25px;
+  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: transparent;
+  outline: none;
+  text-align: right;
+  border-radius: 15px;
+  border: 2px solid white;
+  padding: 10px 20px ;
+  color: rgb(12, 0, 8);
+  font-weight: bolder;
+  font-style: cursive; 
+  font-weight: bold;
+}
+h1{
+  font-weight: bolder;
+  font-style: cursive;
+  color: rgb(0, 0, 0);
+}

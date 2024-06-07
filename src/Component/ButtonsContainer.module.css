@@ -1,0 +1,76 @@
+
+.btn-container{
+  margin-top: 10px;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+}
+.button{
+  padding: 10px;
+  margin: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  font-style: cursive;
+  color: black; 
+}
+.button:hover{
+  color: rgb(3, 121, 255);
+  background-color:black;
+  opacity: 0.9;
+  transition: 0.4s;
+}
+.img1,.img2,.img3,.img4{
+  position: absolute;
+  background-color: transparent;
+  height: 150px;
+}
+.img1{
+  right: 80vh;
+  animation-name: move1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.img2{
+  right: 110vh;
+  top: 50px;
+  animation-name: move2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.img3{
+  left: 100vh;
+  top:20px ;
+  animation-name: move3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.img4{
+  left: 80vh;
+  animation-name: move4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes move1 {
+  50%{
+     transform: translateX(-30px);  
+  }
+}
+@keyframes move2 {
+  50%{
+     transform: translateY(-40px); 
+  }
+}
+@keyframes move3 {
+  50%{
+     transform: translateX(30px);  
+  }
+}
+@keyframes move4 {
+  50%{
+     transform: translateY(40px); 
+  }
+}
